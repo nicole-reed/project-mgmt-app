@@ -11,7 +11,7 @@ const ProjectSchema = new mongoose.Schema({
     },
     status: {
         type: String,
-        enum: ['Not started', 'In Progress', 'Completed'],
+        enum: ['Not Started', 'In Progress', 'Completed'],
     },
     clientId: {
         // The _id mongoose automatically generates is the type we want
